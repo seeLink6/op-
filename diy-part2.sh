@@ -1,20 +1,22 @@
 #!/bin/bash
 #
-# https://github.com/P3TERX/Actions-OpenWrt
-# File name: diy-part2.sh
-# Description: OpenWrt DIY script part 2 (After Update feeds)
+#https://吉特布网/P3TERX/行动
+#文件名:二.Sh
+#描述:开放WRTDiY脚本第2部分(更新后)
 #
 # Copyright (c) 2019-2024 P3TERX <https://p3terx.com>
 #
-# This is free software, licensed under the MIT License.
-# See /LICENSE for more information.
+#这是免费软件，根据麻省理工学院的许可证。
+#更多信息请参阅/许可。
 #
 
-# Modify default IP
+#修改默认IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-# Modify default theme
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+#修改默认主题
+#SED--我的/''''''''''''''''''''''''''''''''''''''''' ''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-# Modify hostname
-#sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+#修改主机名
+#SED-我的/开放/P3-TERT/G'包/基文件/BY/BY/配置
+git 克隆 https://github.com/EOYOHOO/UA2F.git package/UA2F
+git 克隆 https://github.com/EOYOHOO/rkp-ipid.git package/rkp-ipid
